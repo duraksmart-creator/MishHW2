@@ -44,29 +44,29 @@ int main() {
         cin >> arr[i];
     }
     cout << endl;
-    cout << "Ishodnyi massiv:" << endl;
-    cout << "[";
-    for (int i = 0; i < arr.size(); i++) {
-        cout << arr[i];
-        if (i < arr.size() - 1) {
-            cout << ", ";
-        }
-    }
-    cout << "]" << endl;
+//    cout << "Ishodnyi massiv:" << endl;
+//    cout << "[";
+//    for (int i = 0; i < arr.size(); i++) {
+//        cout << arr[i];
+//        if (i < arr.size() - 1) {
+//            cout << ", ";
+//        }
+//    }
+//    cout << "]" << endl;
     printAddresses(arr);
     int z;
     cout << "\nVvedite kol-vo elementov dlya dobavleniya (addnumber): ";
     cin >> z;
     increaseArray(arr, z);
-    cout << "\nResultat posle dobavleniya:" << endl;
-    cout << "[";
-    for (int i = 0; i < arr.size(); i++) {
-        cout << arr[i];
-        if (i < arr.size() - 1) {
-            cout << ", ";
-        }
-    }
-    cout << "]" << endl;
+//    cout << "\nResultat posle dobavleniya:" << endl;
+//    cout << "[";
+//    for (int i = 0; i < arr.size(); i++) {
+//        cout << arr[i];
+//        if (i < arr.size() - 1) {
+//            cout << ", ";
+//        }
+//    }
+//    cout << "]" << endl;
     printAddresses(arr);
     return 0;
 }
